@@ -16,13 +16,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="stylesheet" href="<?php echo get_bloginfo( 'template_directory' ); ?>/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_bloginfo( 'template_directory' ); ?>/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="<?php echo get_bloginfo( 'template_directory' ); ?>/manifest.json">
-<link rel="mask-icon" href="<?php echo get_bloginfo( 'template_directory' ); ?>/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon/manifest.json">
+<link rel="mask-icon" href="<?php echo get_bloginfo( 'template_directory' ); ?>/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#242f3a">
 <?php wp_head(); ?>
 </head>
