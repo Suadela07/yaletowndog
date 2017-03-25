@@ -1,0 +1,94 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+		// border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		// border-color: $color__border-button-focus;
+	}
+}
+
+.search-submit {
+	line-height: 16px;
+	font-size: 14px;
+	border: 2px solid white;
+	background-color: $color_mediumblue;
+	color: white;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+
+.search-submit:hover {
+	background-color: $color_darkblue;
+	transition: 0.4s;
+}
+
+@media only screen and (max-width: 826px) {
+	.search-submit {
+		font-size: 12px;
+	}
+}
+
+.widget {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.widget ul {
+	margin: 0 auto;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+.widget ul li {
+	display: block;
+	padding: 20px;
+}
+
+.widget ul li a {
+	// line-height: 30px;
+	font-size: 19px;
+  padding: 5px 17px;
+	border: 2px solid $color_lightblue;
+	background-color: $color_mediumblue;
+	color: white;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+
+.widget ul li a:hover {
+	background-color: $color_darkblue;
+	border: 2px solid $color_lightblue;
+	transition: 0.4s;
+}
+
+.comment-form button, input[type="button"], input[type="reset"], input[type="submit"] {
+	line-height: 16px;
+	font-size: 16px;
+	border: 2px solid white;
+	background-color: #7ec0ff;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 20px;
+	transition: 0.4s;
+}
+
+.comment-form button, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+	background-color: $color_darkblue;
+	transition: 0.4s;
+}

@@ -1,0 +1,140 @@
+.resource_wrapper{
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1275px;
+	margin: 0 auto;
+	padding: 0 25px 75px;
+}
+
+.resource_wrapper > h2 {
+	width: 100%;
+}
+
+.gotoblogpage {
+	max-width: 500px;
+	margin: 0 auto;
+	// margin-top: 20px;
+	padding: 15px 20px;
+	color: black;
+	background-color: $color_lightgrey;
+	text-align: center;
+	transition: 0.4s;
+}
+
+.gotoblogpage:hover {
+	background-color: $color_darkblue;
+	color: white;
+	transition: 0.4s;
+}
+
+.gotoblogpage h2 {
+	font-size: 22px;
+	margin-top: 0;
+}
+
+.gotoblogpage p {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.book-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+.book {
+	position: relative;
+	height: 365px;
+}
+
+.book img {
+  max-width: 175px;
+  max-height: 17em;
+}
+
+.books_pic {
+	margin: 10px 10px;
+	padding: 20px 40px;
+	background-color: $color_lightgrey;
+}
+
+.titleauthorwrap {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.book_image_height {
+ 	text-align: center;
+}
+
+.book_image_height a {
+	color: $color_mediumblue;
+	transition: 0.4s
+}
+
+.book_image_height a:visited {
+	color: $color_mediumblue;
+	transition: 0.4s
+}
+
+.book_image_height a:hover {
+	color: $color_darkblue;
+	transition: 0.4s;
+}
+
+.author {
+	text-align: center;
+}
+
+.resource-blogs ul {
+	margin: 0;
+}
+
+.resource-websites ul {
+	margin: 0;
+}
+
+.resource-blogs a, .resource-websites a {
+	color: $color_mediumblue;
+	transition: 0.4s
+}
+
+.resource-blogs a:visited, .resource-websites a:visited {
+	color: $color_mediumblue;
+	transition: 0.4s
+}
+
+.resource-blogs a:hover, .resource-websites a:hover {
+	color: $color_darkblue;
+	transition: 0.4s
+}
+
+@media only screen and (max-width: 727px) {
+	.resource-blogs, .resource-websites {
+		width: 100%;
+		margin-top: 25px;
+		text-align: center;
+		list-style: none;
+	}
+
+	.resource-blogs ul, .resource-websites ul {
+		list-style: none;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 617px) {
+	.resource_wrapper > h2 {
+		width: auto;
+	}
+
+	.book-wrapper {
+		margin-bottom: 0;
+		justify-content: center;
+	}
+}

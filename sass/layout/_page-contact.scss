@@ -1,0 +1,118 @@
+body.page-id-18 .site-main{
+		display:flex;
+}
+
+#post-18 h1 {
+	display: none;
+}
+
+.contact-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1275px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+.contact-info {
+	order: 1;
+	flex-shrink: 0;
+	width: 40%;
+	padding-right: 50px;
+}
+
+.map {
+	order: 2;
+	margin-top: 35px;
+	width: 60%;
+}
+
+.contactsocial {
+	margin-bottom: 50px;
+}
+
+.contact-wrapper a {
+	transition: 0.4s;
+}
+
+.contactsocial h2 {
+	// font-size: 16px;
+	margin-bottom: 35px;
+}
+
+.contactsocial i {
+	font-size: 4em;
+	margin-left: 1em;
+}
+
+.contactsocial a:visited {
+	color: $color_mediumblue;
+	transition: 0.4s;
+}
+
+.contactsocial a:hover {
+	color: $color_darkblue;
+	transition: 0.4s;
+}
+
+.service-location {
+	margin-bottom: 65px;
+}
+
+.contact-form {
+	order: 3;
+	width: 50%;
+}
+
+@media only screen and (max-width: 1027px) {
+	.contact-info {
+		width: 100%;
+		max-width: 500px;
+		padding-right: 0;
+	}
+
+	.map {
+		width: 100%;
+		margin-top: 0;
+	}
+
+	.service-location {
+		margin-bottom: 35px;
+	}
+
+	.contact-form {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#post-18 {
+		margin-bottom: -40px;
+	}
+
+	.contact-form {
+		width: 100%;
+	}
+
+	.contact-form input {
+		width: 100%;
+	}
+
+	.contact-wrapper {
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	.contactsocial i {
+		margin-left: 0;
+		padding: 0 10px;
+	}
+
+	.contact-info {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+}

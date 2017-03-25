@@ -1,0 +1,90 @@
+/* -------------------------------- */
+/* ------ CUSTOM LOGIN PAGE! ------ */
+/* -------------------------------- */
+
+/* Login Body */
+body.login{
+    background: linear-gradient(#f5faff,#7ec0ff);
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: .05em;
+}
+
+/* Login Form Background */
+body.login div#login form#loginform {
+    padding: 26px 24px 38px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Message */
+body.login .welcome{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #21517f;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Logo Image */
+.login h1 a {
+	background-image: url('images/darkblue2.png');
+	background-size: 150px 150px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	color: #999;
+	height: 150px;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin: 0 auto 25px;
+	padding: 0;
+	text-decoration: none;
+	width: 150px;
+	text-indent: -9999px;
+	outline: none;
+	overflow: hidden;
+	display: block;
+}
+
+/* Non-Error Message Sidebar Colour */
+.login #login_error, .login .message {
+    border-left: 4px solid #21517f;
+}
+
+/* Error Message Sidebar Colour */
+.login #login_error {
+    border-left-color: #EFD4CE;
+}
+
+/* Hover */
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: #21517f;
+}
+
+/* Form Labels */
+body.login div#login form#loginform p label {
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+}
+
+/* Button */
+body.login div#login form#loginform p.submit input#wp-submit {
+    margin-top: 50px;
+    height: 40px;
+    width: 95px;
+    background-color: #21517f;
+    border-radius: 0;
+    border: 2px solid transparent;
+    text-shadow: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    transition: .3s ease;
+}
+/* Button Hover */
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+    background-color: transparent;
+    border: 2px solid #A4BCB2;
+    color: #A4BCB2;
+}

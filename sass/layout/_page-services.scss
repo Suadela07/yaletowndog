@@ -1,0 +1,237 @@
+.page-title {
+  width: 100%;
+  height: 134px;
+  margin: 0;
+  background-color: $color_pagetitle;
+}
+
+.page-title-heading {
+  max-width: 1275px;
+  padding: 0 25px;
+  margin: 0 auto;
+  line-height: 134px;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: white;
+}
+
+
+.services-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1275px;
+  margin: 0 auto;
+  padding: 25px 25px;
+  // margin-bottom: 50px;
+  // padding-bottom: 100px;
+}
+
+.page-wrapper {
+  max-width:  175px;
+  padding: 0 25px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.dog-training {
+  margin-bottom: 50px;
+}
+
+.dog-training-content {
+  display: flex;
+  width: 100%;
+  order: 1;
+}
+
+.service-about-me {
+  width: 40%;
+}
+
+.dog-training-image {
+  width: 60%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.randomtestimonial {
+  background-color: $color_mediumblue;
+  color: white;
+  width: 100%;
+  // height: 236px;
+  padding: 25px 10px;
+  margin: 0 auto;
+}
+
+.testimonial-slider {
+  order: 4;
+}
+
+.service-testimonial {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.prices {
+  background-color: #f5faff;
+  padding: 50px;
+  padding-top: 18px;
+  margin-top: 35px;
+}
+
+.bottom-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.classes-skype-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 75%;
+}
+
+.classes {
+  width: 50%;
+  padding: 0 25px;
+}
+
+.classes h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.class-image {
+  width: 25%;
+}
+
+
+.skype {
+  width: 50%;
+  padding-left: 0 25px;
+}
+
+.skype h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 1040px) {
+  .dog-training-image {
+    width: 45%;
+  }
+
+  .service-about-me{
+    width: 53%;
+  }
+
+  .class-image {
+    flex-shrink: 0;
+    width: 300px;
+  }
+
+  .classes-skype-wrapper {
+    padding: 0 0 0 25px;
+    max-width: 68%;
+  }
+
+  .classes, .skype {
+    padding: 0 0 0 25px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .services-wrapper {
+    margin-bottom: 0;
+  }
+
+  .dog-training {
+    order: 1;
+    margin-bottom: 0;
+  }
+
+  .dog-training-content {
+    flex-wrap: wrap;
+  }
+
+  .service-about-me {
+    order: 1;
+    width: 100%;
+  }
+
+  .bottom-wrapper {
+    order: 3;
+    flex-wrap: wrap;
+  }
+
+  .dog-training-image {
+    order: 2;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .class-image {
+    margin: 0 auto;
+    margin-top: 30px;
+    order: 2;
+  }
+
+  .class-image img {
+    margin: 0 auto;
+  }
+
+  .classes {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 0;
+  }
+
+  .skype {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 0;
+  }
+
+  .classes-skype-wrapper {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .randomtestimonial {
+    order: 4;
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .prices {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .services-wrapper {
+    padding: 25px 10px;
+  }
+
+  .service-about-me {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+
+  .classes {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .skype {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+}
