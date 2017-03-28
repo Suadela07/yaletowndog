@@ -1,2 +1,2 @@
-#TWD Client Project
-This is a responsive client project.
+# TWD Client Project
+This is a responsive blog.
